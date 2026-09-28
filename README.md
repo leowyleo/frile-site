@@ -8,4 +8,6 @@ Static bilingual pages for the App Store privacy-policy and support URLs.
 
 Cloudflare Pages `_redirects` keeps the six canonical routes working with or without the trailing slash.
 
-The paths are ready for a static host that serves `index.html` for directory URLs. Before publishing, confirm the domain and email address, then verify each public URL over HTTPS. These files are not live until deployed.
+Deployed on Cloudflare Pages from the `main` branch. The production URL is <https://frile.leowy.cc>; the Cloudflare Pages fallback is <https://frile-site.pages.dev>.
+
+Cloudflare Pages `_redirects` keeps the six canonical routes working with or without the trailing slash. Verify all six routes after content changes.
